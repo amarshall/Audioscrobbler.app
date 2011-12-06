@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Audioscrobbler</string>
 	<key>CFBundleIconFile</key>
 	<string>Audioscrobbler</string>
 	<key>CFBundleIdentifier</key>
@@ -19,23 +21,9 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>0.9.13</string>
-	<key>CFBundleGetInfoString</key>
-	<string>Audioscrobbler</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>© Max Howell, 2009–2010</string>
-	<key>NSAppleScriptEnabled</key>
-	<true/>
-	<key>NSMainNibFile</key>
-	<string>main</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-	<key>NSSupportsSuddenTermination</key>
-	<true/>
-	<key>LSUIElement</key>
-	<true/>
+	<string>0.9.13a</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.5.0</string>
+	<string>10.7.0</string>
 	<key>LSMinimumSystemVersionByArchitecture</key>
 	<dict>
 		<key>i386</key>
@@ -47,17 +35,29 @@
 		<key>x86_64</key>
 		<string>10.6.0</string>
 	</dict>
-	<key>SUEnableAutomaticChecks</key>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Max Howell, 2009–2010</string>
+	<key>NSMainNibFile</key>
+	<string>main</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSupportsSuddenTermination</key>
 	<true/>
 	<key>SUAllowsAutomaticUpdates</key>
 	<true/>
 	<key>SUCheckAtStartup</key>
 	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
 	<key>SUFeedURL</key>
 	<string>http://www.methylblue.com/audioscrobbler/appcast.xml</string>
-	<key>SUScheduledCheckInterval</key>
-	<string>259200</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>methylblue.pem</string>
+	<key>SUScheduledCheckInterval</key>
+	<string>259200</string>
 </dict>
 </plist>
